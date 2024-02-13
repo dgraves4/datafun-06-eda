@@ -4,6 +4,9 @@ Project 6 demonstrates the creation of a custom exploratory data analysis (EDA) 
 ## Introduction to Dataset: Car Crashes 
 We will be working with the dataset 'car_crashes', which provides a glimpse into various factors surrounding these incidents, such as the number of crashes, the presence of alcohol-related crashes, and more. We will use this dataset to explore patterns, identify trends, and gain insights into the factors contributing to road accidents. Throughout this notebook, we'll use the power of data visualization techniques using Python's seaborn library to uncover hidden relationships and tell a compelling story behind the statistics.
 
+You can find the dataset [here](https://github.com/mwaskom/seaborn-data/blob/master/car_crashes.csv).
+
+
 |  Column Name   |                      Description                        |
 |:--------------:|:-------------------------------------------------------:|
 |     total      |  Total number of car crashes per billion miles         |
@@ -14,6 +17,8 @@ We will be working with the dataset 'car_crashes', which provides a glimpse into
 |  ins_premium  |  Insurance premium for car owners ($)                    |
 |  ins_losses   |  Losses incurred by insurance companies for collisions ($)|
 |    abbrev      |  Abbreviation for the state where the crash occurred     |
+
+
 
 
 ## Project Setup and Layout
@@ -152,6 +157,7 @@ Special thanks to OpenAI for assistance with troubleshooting and script debuggin
 
 Additional references used for this project include:
 
+- [car_crashes dataset](https://github.com/mwaskom/seaborn-data/blob/master/car_crashes.csv)
 - [Specification for Project 6 Module](https://github.com/denisecase/datafun-06-spec)
 - [JUPYTER.md](https://github.com/denisecase/datafun-04-spec/JUPYTER.md)
 - [MARKDOWN.md](https://github.com/denisecase/datafun-04-spec/MARKDOWN.md)
