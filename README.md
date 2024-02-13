@@ -20,10 +20,9 @@ We will be working with the dataset 'car_crashes', which provides a glimpse into
 Project setup consists of beginning a git repository with a README.md, cloning the project down to the root project folder, adding necesssary files and depenency installs, and performing initial commits to Github. 
 
 ### Project Structure & Deliverables
-
--`README.md`: Provides an overview of the project and instructions for setting up the environment and running the notebook.
--`requirements.txt`: Lists all dependencies needed to run the notebook.
--`dgraves_eda.ipynb`: Jupyter notebook.
+- `README.md`: Provides an overview of the project and instructions for setting up the environment and running the notebook.
+- `requirements.txt`: Lists all dependencies needed to run the notebook.
+- `dgraves_eda.ipynb`: Jupyter notebook.
 
 ### Environment Setup 
 - Create a new github repository 'yourname_eda.ipynb'.
