@@ -165,7 +165,7 @@ Create a variety of chart types with seaborn and matplotlib and display them alo
 ### Step 8: Initial Storytelling and Presentation
 The objective of this notebook is to acquaint the reader with the author and the chosen topic, leading them through an immersive visual narrative enriched with markdown cells. These markdown cells serve to offer both informative and captivating insights, enhancing the reader's understanding and engagement throughout this notebook.
 
-### Conclusion
+#### Conclusion
 Provide and overarching summary for the findings, results, and any trends or followup analysis that could be performed based on this initial analysis using well-structured markdown cells. 
 
 ## Contributing
