@@ -18,9 +18,6 @@ You can find the dataset [here](https://github.com/mwaskom/seaborn-data/blob/mas
 |  ins_losses   |  Losses incurred by insurance companies for collisions ($)|
 |    abbrev      |  Abbreviation for the state where the crash occurred     |
 
-
-
-
 ## Project Setup and Layout
 Project setup consists of beginning a git repository with a README.md, cloning the project down to the root project folder, adding necesssary files and depenency installs, and performing initial commits to Github. 
 
