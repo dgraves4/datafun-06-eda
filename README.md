@@ -102,6 +102,9 @@ Display the first 10 rows of the DataFrame to inspect the data types we are work
 
 Project example:
 ```bash
+print(df.head(10))
+print(df.shape)
+print(df.dtypes)
 ```
 
 ### Step 3: Initial Descriptive Statistics
@@ -109,6 +112,7 @@ Use the DataFrame describe() method to display summary statistics for each colum
 
 Project example:
 ```bash
+print(df.describe())
 ```
 
 ### Step 4: Initial Data Distribution for Numerical Columns
@@ -116,6 +120,12 @@ Choose a numerical column and use df['column_name'].hist() to plot a histogram f
 
 Project example:
 ```bash
+#Distribution for Numerical Columns
+df['alcohol'].hist()
+
+#Inspect histograms for all numerical colums and show all plots
+df.hist()
+plt.show()
 ```
 
 Use a markdown cell to document any observations.
@@ -125,6 +135,13 @@ Choose a categorical column and use df['column_name'].value_counts() to display 
 
 Project example:
 ```bash
+# Inspect value counts for all categorical columns
+for col in df.select_dtypes(include=['object', 'category']).columns:
+    sns.countplot(x=col, data=df)
+    plt.title(f'Distribution of {col}')
+    
+    # Show plot
+    plt.show()
 ```
 
 Use a markdown cell document any observations.
@@ -134,10 +151,12 @@ Use pandas and our other tools to perform data transformations such as renaming 
 
 Project example:
 ```bash
+# Rename the column 'abbrev' to 'state_abbreviation'
+df.rename(columns={'abbrev': 'state_abbreviation'}, inplace=True)
 ```
 
 ### Step 7: Initial Visualizations
-Create a variety of chart types with seaborn and matplotlib and display them alongside markdown cells for story and context.  Three sections are created with the following subsets for each:
+Create a variety of chart types with seaborn and matplotlib and display them alongside markdown cells for story and context.  Three individual sections are created with the following subsets for each:
 - Goal
 - Chart Type
 - Chart Display
